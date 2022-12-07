@@ -1,0 +1,433 @@
+:root {
+  --font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  --blue: #2149fe;
+  --light-blue: #81cffa;
+  --white: #fff;
+  --grey: #cdcdcd;
+  --light-grey: #f4f4f4;
+  --medium-grey: #a6a6a6;
+  --black: #0000;
+  --green: #8cc27b;
+  --orange: #d95214;
+}
+
+body {
+  margin: 2.5em;
+}
+h2 {
+  color: var(--blue);
+  font-size: 4rem;
+  font-weight: 700;
+  padding-left: 14rem;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+
+/* DONT USE BS CLASSES IN DESCENDING WAY  */
+.container {
+  padding-top: 3rem;
+  border: #fff;
+  border-radius: 4px;
+  margin-bottom: 6rem;
+  background-color: var(--white);
+}
+
+.container > .row > .col-sm > h5 {
+  margin-top: 3rem;
+  font-weight: 700;
+}
+.container > .row > .col-sm > p {
+  margin-top: 1.5rem;
+}
+.container > .row > .col-sm > img {
+  margin-top: 1.5rem;
+  width: 30%;
+}
+
+.features-title {
+  margin-bottom: 10rem;
+}
+.features-title > img {
+  height: 3rem;
+  margin-bottom: -14rem;
+  margin-left: 11.5rem;
+}
+
+.green {
+  color: var(--green);
+}
+
+/* ---- NAVBAR START ----*/ /*FIX*/
+.navbar {
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34px;
+}
+.navbar-logo {
+  width: 12rem;
+  margin-top: -0.7rem;
+}
+
+.navbar-collapse > ul > li > a {
+  color: black;
+  margin-left: 2.5rem;
+}
+
+/* ---- WORKFLOW START ----*/
+
+.workflow-title > img {
+  height: 3rem;
+  margin-bottom: -12.8rem;
+  margin-left: 11.5rem;
+}
+
+.workflow-container {
+  padding-bottom: 4rem;
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+
+.workflow-container > .row > .col-sm > h5 {
+  padding-left: 1rem;
+  font-weight: 800;
+  margin-top: 3rem;
+}
+.workflow-container > .row > .col-sm > p {
+  margin-top: 1.5rem;
+  padding-left: 1rem;
+}
+.workflow-container > .row > .col-sm > img {
+  margin-top: 1.5rem;
+  margin-bottom: -14rem;
+}
+.workflow-image > img {
+  width: 80%;
+  padding-left: 6rem;
+}
+
+/* ---- APPLICATION START ----*/
+
+.application-title > img {
+  height: 3rem;
+  margin-bottom: -14rem;
+  margin-left: 11.5rem;
+}
+
+.application-background {
+  width: 100%;
+  height: 65rem;
+  background-color: var(--light-grey);
+}
+
+.application-container {
+  padding-top: 4rem;
+  margin-top: 1rem;
+}
+
+.application-container > .row > .application-content > p {
+  margin-top: 1rem;
+  padding-left: 2rem;
+}
+.application-container > .row > .application-content > h5 {
+  margin-top: 1rem;
+  padding-left: 2rem;
+}
+
+.application-content {
+  margin-left: -7rem;
+  margin-right: 110px;
+}
+
+.application-container > .row > .application-content > img {
+  margin-bottom: -9rem;
+  height: 5rem;
+  margin-right: 15px;
+}
+
+.application-container > .row > .col-sm > h4 {
+  color: var(--orange);
+  font-weight: 800;
+  margin-top: 1rem;
+}
+.application-container > .row > .col-sm > h5 {
+  font-weight: 800;
+}
+
+.application-desktop {
+  display: flex;
+  height: 6rem;
+}
+
+.application-desktop > img {
+  margin: 0.5rem;
+  height: 75%;
+}
+.application-desktop > h4 {
+  padding-left: 4rem;
+  padding-top: 2rem;
+  font-weight: 800;
+}
+
+.application-mobile {
+  background-color: var(--white);
+  border-radius: 8px;
+  display: flex;
+  height: 6rem;
+}
+.application-mobile > img {
+  margin: 0.5rem;
+  height: 75%;
+}
+.application-mobile > h4 {
+  padding-left: 4rem;
+  padding-top: 2rem;
+  font-weight: 800;
+}
+
+.application-image > img {
+  height: 84%;
+}
+
+/* ---- ORDER CARD START ----*/
+
+.order-card {
+  padding: 5rem;
+  margin: 6rem;
+  max-width: 80%;
+  background-color: var(--light-blue);
+}
+.order-card > .order-card-container > .row > .col-sm > p {
+  font-weight: 600;
+  font-size: large;
+}
+.order-card > .order-card-container > .row > .col-sm > button {
+  background-color: var(--blue);
+  border-color: var(--blue);
+  color: var(--white);
+  font-family: var(--font-family);
+  width: 30%;
+  height: 15%;
+  border-radius: 10px;
+}
+
+.order-card > .order-card-container > .row > .col-sm > img {
+  width: 80%;
+}
+
+.order-card > .order-card-container > .row > .quicki > img {
+  width: 40%;
+}
+
+/* ---- VOLUNTEER CARD  START ----*/
+.volunteer-card-container {
+  margin-left: 14rem;
+  margin-bottom: 2rem;
+  width: 80%;
+}
+.volunteer-card-container > .row > .col-sm > img {
+  width: 100%;
+}
+.volunteer-card-container > .row > .col-sm > h4 {
+  font-weight: 700;
+}
+.volunteer-card-container > .row > .col-sm > h5 {
+  margin-top: 1rem;
+  color: var(--blue);
+  width: 70%;
+}
+.volunteer-card-container > .row > .col-sm > p {
+  margin-top: 2rem;
+  color: var(--medium-grey);
+  width: 85%;
+}
+
+/* ---- SUBSCRIBE CARD  START ----*/
+
+.subscribe-container {
+  margin-left: 14rem;
+  margin-top: 11rem;
+  width: 75%;
+  background-color: var(--blue);
+  border-radius: 0.4rem;
+}
+
+.subscribe-container > .row > .col-sm > p {
+  margin: 2rem;
+  color: var(--white);
+  font-size: x-large;
+}
+
+.subscribe-container > .row > .col-sm > input {
+  margin-top: 4rem;
+  width: 23rem;
+  height: 3rem;
+  border-color: var(--blue);
+  border: 3px solid var(--blue);
+  font-weight: 700;
+}
+.subscribe-container > .row > .col-sm > button {
+  width: 4rem;
+  height: 2.4rem;
+  border: none;
+  border-radius: 0.4rem;
+  border-color: var(--green);
+  background-color: var(--green);
+  margin-left: -4.6rem;
+}
+.subscribe-container > .row > .col-sm > button > img {
+  height: 1.2rem;
+  background-color: var(--green);
+}
+
+/* ---- CONTACT US START ----*/
+
+.contact-container {
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.contact-container > .row > .col-sm > p {
+  margin-bottom: 4rem;
+  margin-left: 14rem;
+  font-weight: 700;
+}
+.contact-container > .row > .col-sm > img {
+  margin-left: 14rem;
+}
+
+.contact-container > .row > .col-sm > .contact-detail {
+  margin-top: 2rem;
+  display: flex;
+  margin-left: 14rem;
+}
+
+.contact-container > .row > .col-sm > .contact-detail > p {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-weight: 700;
+}
+
+.contact-container > .row > .col-sm > .contact-detail > img {
+  width: 3rem;
+}
+
+.contact-container > .row > .col-sm > .contact-header {
+  display: flex;
+}
+.contact-container > .row > .col-sm > .contact-header > img {
+  margin-left: 12rem;
+  height: 3rem;
+  margin-top: 5.4rem;
+}
+.contact-container > .row > .col-sm > .contact-header > h2 {
+  margin-left: -12.5rem;
+}
+
+.contact-container > .row > .contact-form {
+  margin-top: 5rem;
+  margin-left: 2rem;
+  font-weight: 600;
+  font-size: large;
+  border-radius: 1rem;
+}
+
+.contact-container > .row > .contact-form > input {
+  margin-bottom: 1.5rem;
+  width: 70%;
+}
+.contact-button > button {
+  float: right;
+  border: none;
+  border-radius: 0.4rem;
+  color: var(--white);
+  width: 7.8rem;
+  height: 3rem;
+  background-color: var(--blue);
+  font-weight: 400;
+  margin-bottom: 4rem;
+  margin-right: 12.2rem;
+}
+.contact-button > button > img {
+  width: 1.2rem;
+  margin-left: 0.6rem;
+}
+
+/* ---- LOGIN BUTTON START ----*/
+
+.login-button {
+  background-color: var(--blue);
+  color: var(--white);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 0.4rem;
+  width: 8rem;
+  margin-top: 0.2rem;
+  margin-left: 1.5rem;
+  padding-top: 0.2rem;
+  border-radius: 5px;
+  border-color: var(--blue);
+}
+
+.login-button > img {
+  margin-right: 0.8rem;
+}
+
+/* ---- SEPERATORS START ----*/
+.small-seperator {
+  color: var(--grey);
+  margin-top: 0.3rem;
+  font-size: xx-large;
+  font-weight: 300;
+}
+
+.medium-seperator {
+  padding-top: -50px;
+  font-weight: 500;
+  font-size: 50px;
+  color: var(--green);
+  border-radius: 4px;
+}
+
+.main-pic {
+  width: 100%;
+}
+
+.menu-background {
+  background-color: var(--light-grey);
+  opacity: 0.8;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+/* ---- TEXTBOX START ----*/
+
+/* ---- FOOTER START ----*/
+
+.footer-seperator > img {
+  width: 100%;
+}
+
+.footer-container {
+  padding-top: 1.2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.footer-container > .row > .col-sm > img {
+  padding-left: 6rem;
+}
+
+.footer-container > .row > .social-links > a > img {
+  padding-left: 2rem;
+}
+
+.footer-container > .row > .col-sm > p {
+  padding-top: 1rem;
+  padding-left: 6rem;
+  font-weight: 700;
+}
