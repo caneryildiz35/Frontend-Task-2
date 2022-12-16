@@ -49,82 +49,105 @@
       </ul>
     </div>
   </nav>
-   
-  <section>
-    <div class="container">
 
+  <section class="home-page-container">
+    <img src="images/main-image.svg" />
+    <p class="mini-title">GET SAME-DAY DELIVERY</p>
+    <h1>EVERYBODY CAN BE A VOLUNTEER HERO</h1>
+    <p class="info">
+      Receive your delivery the same day, whenever you need it. Put together
+      your shopping cart and receive your packages quickly and easily. With a
+      quick registration on Quicki anyone can be a volunteer hero.
+    </p>
 
-    </div>
-    //background with titles
-    <img src="images/main_pic.PNG" class="main-pic" />
+    <button class="start-button">Get Started</button>
+
+    <button class="apple-store"><img src="images/apple_store.svg"></button>
+    <button class="play-store"><img src="images/play_store.svg"></button>
+    <button class="app-gallery"><img src="images/app_gallery.svg"></button>
   </section>
 
 
-
   <section class="menu-background">
-    <div class="container">
+    <div class="container feature-container">
       <div class="row">
-        <div class="features-title"> ///
-          <img src="images/green_rectangle.svg" />
-          <h2>Features & Benefits</h2>
+        <div class="col">
+          <div class="features-title">
+            <img src="images/green_rectangle.svg" />
+            <h2>Features & Benefits</h2>
+          </div>
         </div>
       </div>
-      <div class="row" style="margin-top:-365px;padding-top:137px;">
+      <div class="row">
         <div class="col-sm">
-          <img src="images/delivery.svg" />
-          <h5>Get Same-Day Delivery</h5>
-          <img src="images/blueline.svg" />
-          <p>Same-Day Delivery: Order for delivery from local supermarkets.</p>
+          <div class="features-row">
+            <img src="images/delivery.svg" />
+            <h5>Get Same-Day Delivery</h5>
+            <img src="images/blueline.svg" />
+            <p>
+              Same-Day Delivery: Order for delivery from local supermarkets.
+            </p>
+          </div>
         </div>
+
         <div class="col-sm">
-          <img src="images/savetime.svg" />
-          <h5>Save Time & Effort</h5>
-          <img src="images/blueline.svg" />
-          <p>
-            Make your purchase from the comfort of your own home and receive the
-            delivery of the articles in only 2 hours.
-          </p>
+          <div class="features-row">
+            <img src="images/savetime.svg" />
+            <h5>Save Time & Effort</h5>
+            <img src="images/blueline.svg" />
+            <p>
+              Make your purchase from the comfort of your own home and receive
+              the delivery of the articles in only 2 hours.
+            </p>
+          </div>
         </div>
         <div class="col-sm" style="margin-top: 7px">
-          <img src="images/mobileapp.svg" />
-          <h5>Mobile App and Website</h5>
-          <img src="images/blueline.svg" />
-          <p>
-            Mobile App and Website: A secure mobile app and desktop app offers a
-            safe and easy way to do your shopping.
-          </p>
+          <div class="features-row">
+            <img src="images/mobileapp.svg" />
+            <h5>Mobile App and Website</h5>
+            <img src="images/blueline.svg" />
+            <p>
+              Mobile App and Website: A secure mobile app and desktop app offers
+              a safe and easy way to do your shopping.
+            </p>
+          </div>
         </div>
       </div>
     </div>
- // add alt for images 
-    <div class="container" style="padding-top: 15px">
+
+    <div class="features-second-container">
       <div class="row">
         <div class="col-sm">
-          //dont consider column as card , use wrapper inside columns
-          <img src="images/calendar.svg" />
-          <h5>Choosing Delivery Date and Time</h5>
-          <img src="images/blueline.svg" />
-          <p>
-            Receive your order on the day and within the time range of your
-            choice.
-          </p>
+          <div class="features-second-row">
+            <img src="images/calendar.svg" />
+            <h5>Choosing Delivery Date and Time</h5>
+            <img src="images/blueline.svg" />
+            <p>
+              Receive your order on the day and within the time range of your
+              choice.
+            </p>
+          </div>
         </div>
         <div class="col-sm">
-          <img src="images/orderstatus.svg" />
-          <h5 style="padding-top: 9px">Order Status Tracking</h5>
-          <img src="images/blueline.svg" />
-          <p>
-            Get the items you love delivered or ready for pickup in as little as
-            2 hours. Track your order status instantly.
-          </p>
+          <div class="features-second-row">
+            <img src="images/orderstatus.svg" />
+            <h5 class="order-status-title">Order Status Tracking</h5>
+            <img src="images/blueline.svg" />
+            <p>
+              Get the items you love delivered or ready for pickup in as little
+              as 2 hours. Track your order status instantly.
+            </p>
+          </div>
         </div>
-        <div class="col-sm" style="margin-top: 7px">
-          <img src="images/volunteer.svg" />
-          <h5 style="margin-top: 36px">Everybody Can Become a Volunteer</h5>
-          <img src="images/blueline.svg" />
-          <p>
-            Everyone can volunteer in their spare time to help the community.
-          </p>
+        <div class="col-sm">
+          <div class="features-second-row">
+            <img src="images/volunteer.svg" />
+            <h5 style="margin-top: 36px">Everybody Can Become a Volunteer</h5>
+            <img src="images/blueline.svg" />
+            <p>
+              Everyone can volunteer in their spare time to help the community.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -188,7 +211,7 @@
             </div>
           </div>
           <h4>Customers</h4>
-          //use border left instead of img , wrap them with one div 
+          //use border left instead of img , wrap them with one div
           <img src="images/vertical_blue_line.svg" />
           <h5>Order Status Tracking for Customers</h5>
           <p>
@@ -247,7 +270,7 @@
   <h2>We're building Quicki <span class="green"> together!</span></h2>
 
   <section class="volunteer-card-container">
-    //use bs container 
+    //use bs container
     <div class="row">
       <div class="col-sm">
         <img src="images/volunteer_card.svg" />
@@ -283,7 +306,7 @@
     <div class="row">
       <div class="col-sm">
         <div class="contact-header">
-          <img src="images/green_rectangle.svg"/>
+          <img src="images/green_rectangle.svg" />
           <h2>Contact Us</h2>
         </div>
 
@@ -291,24 +314,29 @@
           Got a question? We are here to help! Fill up the form to get in touch
           with us on your enquiries.
         </p>
-
-
-
-        //links should be clickable depending on  content
         <div class="contact-detail">
-          <img src="images/map_placeholder.svg" />
-          <p>Brüsseler Str. 89-93, 50672 Cologne/Germany</p>
+          <a
+            href="https://maps.google.com/?q=BrüsselerStr.89-93,%2050672%20Cologne/Germany"
+            target="_blank"
+          >
+            <img src="images/map_placeholder.svg" />
+            <p>Brüsseler Str. 89-93, 50672 Cologne/Germany</p>
+          </a>
         </div>
         <div class="contact-detail">
-          <img src="images/phone_placeholder.svg" />
-          <p>+49 2 21 5796 7940</p>
+          <a href="tel:+4922157967940">
+            <img src="images/phone_placeholder.svg" />
+            <p>+49 2 21 5796 7940</p>
+          </a>
         </div>
         <div class="contact-detail">
-        <img src="images/message_placeholder.svg" />
-        <p>contact@quicki.io</p>
+          <a href="mailto:contact@quicki.io">
+            <img src="images/message_placeholder.svg" />
+            <p>contact@quicki.io</p>
+          </a>
+        </div>
       </div>
-      </div>
-      //use bootstrap form , add validation 
+
       <div class="col-sm contact-form">
         <label class="form-label">Full Name *</label> <br />
         <input type="text" placeholder="Enter your full name" /><br />
@@ -341,13 +369,19 @@
         <img src="images/quicki_footer_logo.svg" /> <br />
         <p>Impressum &nbsp; &nbsp; &nbsp; &nbsp; Privacy Policy</p>
       </div>
-      <div class="col-sm social-links lock float-right">
-        <a src="#">
-          <img class="icon-lock" src="images/facebook.svg" />
-          <img class="icon-unlock" src="images/facebook_blue.svg" />
+      <div class="col-sm social-links  float-right">
+        <a src="#" class="social-link">
+          <img  src="images/facebook.svg" />
+          <img class="hover-blue" src="images/facebook_blue.svg" />
         </a>
-        <a src="#"><img src="images/twitter.svg" /></a>
-        <a src="#"><img src="images/instagram.svg" /></a>
+        <a src="#" class="social-link">
+          <img src="images/twitter.svg" />
+          <img class="hover-blue" src="images/twitter_blue.svg" />
+        </a>
+        <a src="#" class="social-link">
+          <img src="images/instagram.svg" />
+          <img class="hover-blue" src="images/instagram_blue.svg" />
+        </a>
       </div>
     </div>
   </footer>
