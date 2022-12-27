@@ -62,11 +62,10 @@
 
     <button class="start-button">Get Started</button>
 
-    <button class="apple-store"><img src="images/apple_store.svg"></button>
-    <button class="play-store"><img src="images/play_store.svg"></button>
-    <button class="app-gallery"><img src="images/app_gallery.svg"></button>
+    <button class="apple-store"><img src="images/apple_store.svg" /></button>
+    <button class="play-store"><img src="images/play_store.svg" /></button>
+    <button class="app-gallery"><img src="images/app_gallery.svg" /></button>
   </section>
-
 
   <section class="menu-background">
     <div class="container feature-container">
@@ -163,24 +162,23 @@
 
     <div class="workflow-container" style="padding-top: 15px">
       <div class="row">
-        <div class="col-sm">
-          <img src="images/horizontal_green_line.svg" />
+        <div class="col-sm border-left-green">
           <h5>Registered Volunteers</h5>
           <p>
             You can be a volunteer on Quicki easily. Volunteers can register to
             Quicki to start carrying deliveries as registered volunteer.
           </p>
         </div>
-        <div class="col-sm">
-          <img src="images/horizontal_green_line.svg" />
+        <div class="col-sm border-left-green">
+        
           <h5>Order Fast & Easy</h5>
           <p>
             Order all your requests fast and easy by monitoring all your orders
             in detail.
           </p>
         </div>
-        <div class="col-sm" style="margin-top: 7px">
-          <img src="images/horizontal_green_line.svg" />
+        <div class="col-sm border-left-green" style="margin-top: 7px">
+      
           <h5>User-friendly Design</h5>
           <p>The user-friendly design facilitates the ordering process.</p>
         </div>
@@ -260,7 +258,7 @@
           </p>
           <button><b>Order Now</b></button>
         </div>
-        <div class="col-sm">
+        <div class="col-sm quicki-left-image">
           <img src="images/order_card_pic.svg" />
         </div>
       </div>
@@ -269,8 +267,7 @@
 
   <h2>We're building Quicki <span class="green"> together!</span></h2>
 
-  <section class="volunteer-card-container">
-    //use bs container
+  <section class="container volunteer-card-container ">
     <div class="row">
       <div class="col-sm">
         <img src="images/volunteer_card.svg" />
@@ -304,7 +301,7 @@
 
   <section class="contact-container">
     <div class="row">
-      <div class="col-sm">
+      <div class="col-sm contact-left-container">
         <div class="contact-header">
           <img src="images/green_rectangle.svg" />
           <h2>Contact Us</h2>
@@ -337,25 +334,43 @@
         </div>
       </div>
 
-      <div class="col-sm contact-form">
-        <label class="form-label">Full Name *</label> <br />
-        <input type="text" placeholder="Enter your full name" /><br />
-        <label class="form-label"> Email Address*</label> <br />
-        <input type="text" /><br />
-        <label class="form-label">Phone Number *</label> <br />
-        <input type="text" /><br />
-        <label class="form-label">Your Message *</label> <br />
-        <input
-          type="textarea"
-          style="height: 9rem"
-          placeholder="Enter your message"
-        /><br />
+      <div class="col-sm  contact-form">
+        <form>
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Enter your full name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address*</label>
+            <input type="email" class="form-control" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number*</label>
+            <input type="text" class="form-control" id="phone" />
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message*</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+
+
+
+          <div class="contact-button">
+            <button>Contact Us <img src="images/path.svg" /></button>
+          </div>
+        </form>
       </div>
-    </div>
-    <div class="contact-button">
-      <button>Contact Us <img src="images/path.svg" /></button>
-    </div>
+    </div> 
   </section>
+
+
+
+
 
   <div class="footer-seperator">
     <img src="images/footer_seperator.svg" />
@@ -369,9 +384,9 @@
         <img src="images/quicki_footer_logo.svg" /> <br />
         <p>Impressum &nbsp; &nbsp; &nbsp; &nbsp; Privacy Policy</p>
       </div>
-      <div class="col-sm social-links  float-right">
+      <div class="col-sm social-links float-right">
         <a src="#" class="social-link">
-          <img  src="images/facebook.svg" />
+          <img src="images/facebook.svg" />
           <img class="hover-blue" src="images/facebook_blue.svg" />
         </a>
         <a src="#" class="social-link">

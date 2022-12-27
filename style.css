@@ -211,7 +211,6 @@ h2 {
 .workflow-container > .row > .col-sm > h5 {
   padding-left: 1rem;
   font-weight: 800;
-  margin-top: 3rem;
 }
 .workflow-container > .row > .col-sm > p {
   margin-top: 1.5rem;
@@ -312,14 +311,45 @@ h2 {
 /* ---- ORDER CARD START ----*/
 
 .order-card {
-  padding: 5rem;
-  margin: 6rem;
+  margin-top: 13rem;
+  margin-left:6rem;
+  margin-bottom:12rem;
+  margin-right:6rem;
+  padding: 2rem;
   max-width: 80%;
   background-color: var(--light-blue);
 }
+.order-card-container{
+  height: 285px;
+}
+.quicki{
+  max-width: 56%;
+}
+.quicki > img {
+  margin-bottom: 1.4rem;
+}
+.quicki > p{
+  margin-bottom: 1.6rem;
+
+}
+
+.quicki-left-image{
+  position: absolute;
+  width: 65%;
+  right: -155px;
+  bottom: -86px;
+}
+
+.quicki-left-image > img{
+  width: 83%;
+}
+.order-card-container > .row {
+  position:relative;
+}
+
 .order-card > .order-card-container > .row > .col-sm > p {
-  font-weight: 600;
-  font-size: large;
+  font-weight: 500;
+  font-size: 29px;
 }
 .order-card > .order-card-container > .row > .col-sm > button {
   background-color: var(--blue);
@@ -327,17 +357,14 @@ h2 {
   color: var(--white);
   font-family: var(--font-family);
   width: 30%;
-  height: 15%;
-  border-radius: 10px;
+  height: 17%;
+  border-radius: 6px;
 }
 
-.order-card > .order-card-container > .row > .col-sm > img {
-  width: 80%;
-}
 
-.order-card > .order-card-container > .row > .quicki > img {
-  width: 40%;
-}
+
+
+
 
 /* ---- VOLUNTEER CARD  START ----*/
 .volunteer-card-container {
@@ -365,27 +392,37 @@ h2 {
 /* ---- SUBSCRIBE CARD  START ----*/
 
 .subscribe-container {
-  margin-left: 14rem;
+  margin-left: 6rem;
   margin-top: 11rem;
-  width: 75%;
+  width: 84%;
   background-color: var(--blue);
   border-radius: 0.4rem;
+  height: 240px;
 }
 
 .subscribe-container > .row > .col-sm > p {
   margin: 2rem;
   color: var(--white);
-  font-size: x-large;
+  font-size: 24px;
+  line-height: 39px;
+  font-weight: 600;
 }
 
 .subscribe-container > .row > .col-sm > input {
   margin-top: 4rem;
-  width: 23rem;
+  width: 75%;
   height: 3rem;
   border-color: var(--blue);
-  border: 3px solid var(--blue);
+  border:none;
   font-weight: 700;
 }
+
+
+.subscribe-container > .row > .col-sm > input:focus{
+  border: 4px solid rgb(72, 84, 241) ;
+}
+
+
 .subscribe-container > .row > .col-sm > button {
   width: 4rem;
   height: 2.4rem;
@@ -402,16 +439,31 @@ h2 {
 
 /* ---- CONTACT US START ----*/
 
+
+.contact-form{
+  padding-top:5rem;
+  width: 20%;
+  max-width: 20%;
+}
+
+
+
 .contact-container {
-  margin-top: 3rem;
   margin-left: 3rem;
+}
+
+.contact-container > .row >.col-sm {
+  max-width: 45%;
 }
 
 .contact-container > .row > .col-sm > p {
   margin-bottom: 4rem;
-  margin-left: 11rem;
   font-weight: 700;
+  font-size: 25px;
 }
+
+
+
 .contact-container > .row > .col-sm > img {
   margin-left: 14rem;
 }
@@ -419,32 +471,47 @@ h2 {
 .contact-detail {
   margin-top: 2rem;
   display: flex;
-  align-content: stretch;
-  margin-left: 8rem;
+
 }
 
-.contact-detail > p {
-  margin-top: 1rem;
-  margin-left: 1rem;
-  font-weight: 700;
+.contact-detail > a > p {
+ color:black;
+ font-weight: 600;
 }
+
+
 
 .contact-detail > img {
   width: 3rem;
 }
 
-.contact-header {
-  display: flex;
+.contact-header{
+  display:flex;
+  margin-top:4rem;
+  margin-bottom:3rem;
+
 }
 .contact-header > img {
-  height: 3rem;
-  margin-top: 5.4rem;
-  margin-right: -140px;
+  display:flex;
+  margin-top: 5rem;
+  height:3rem;
+}
+.contact-header > p {
+  margin-top:1.8rem;
+}
+.contact-header > h2 {
+  margin-top:2.4rem;
+  margin-left:2rem;
+}
+
+.contact-left-container{
+  margin-left:4rem;
 }
 
 .contact-container > .row > .contact-form {
+  max-width: 35%;
   margin-top: 5rem;
-  margin-left: 2rem;
+  margin-left: 5rem;
   font-weight: 600;
   font-size: large;
   border-radius: 1rem;
@@ -460,12 +527,11 @@ h2 {
   border: none;
   border-radius: 0.4rem;
   color: var(--white);
-  width: 7.8rem;
+  width: 9rem;
   height: 3rem;
   background-color: var(--blue);
   font-weight: 400;
-  margin-bottom: 4rem;
-  margin-right: 12.2rem;
+  margin-top:2rem;
 }
 .contact-button > button > img {
   width: 1.2rem;
@@ -551,4 +617,10 @@ h2 {
   padding-top: 1rem;
   padding-left: 6rem;
   font-weight: 700;
+}
+
+
+
+.border-left-green{
+  border-left: 6px #53b453 solid;
 }
