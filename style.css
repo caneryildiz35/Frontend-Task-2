@@ -98,13 +98,39 @@ h2 {
 
 .menu-background {
   background-color: var(--light-grey);
-  opacity: 0.8;
+  margin-top:225px;
   border-radius: 10px;
   width: 100%;
   height: 100%;
 }
 
 
+.blue-line{
+  margin-top:1rem;
+  border-top:5px blue solid;
+  width: 20%;
+}
+
+.green-rectangle {
+  border-radius: 4px;
+  height: 50px;
+  margin-top:32px;
+  margin-right:16px;
+  border:9px var(--green) solid;
+}
+
+.workflow-green-rectangle{
+  border-radius:4px;
+  margin-right:16px;
+  border:8px var(--green) solid;
+  height: 48px;
+  margin-top:20px;
+}
+.left-blue-border{
+  border-left: 6px var(--blue) solid;
+  height: 65px;
+
+}
 
 /* DONT USE BS CLASSES IN DESCENDING WAY  */
 .features-container {
@@ -113,6 +139,8 @@ h2 {
   line-height: 32px;
   border-radius: 14px;
   background-color: var(--white);
+  padding-bottom: 60px;
+  margin-left:8rem;
 }
 .features-title {
   display: flex;
@@ -196,16 +224,24 @@ h2 {
 
 /* ---- WORKFLOW START ----*/
 
+.workflow-title {
+  display:flex;
+  margin-left:9rem;
+  margin-bottom: 4rem;
+} 
 .workflow-title > img {
   height: 3rem;
   margin-bottom: -12.8rem;
   margin-left: 11.5rem;
+
 }
 
 .workflow-container {
   padding-bottom: 4rem;
   padding-left: 1rem;
-  margin-left: 1rem;
+  margin-left: 6rem;
+  padding-top: 15px;
+  width: 90%;
 }
 
 .workflow-container > .row > .col-sm > h5 {
@@ -226,6 +262,17 @@ h2 {
 }
 
 /* ---- APPLICATION START ----*/
+
+.application-title{
+  display:flex;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left:8rem;
+}
+.application-customers{
+  margin-left: 24px;
+}
+
 
 .application-title > img {
   height: 3rem;
@@ -254,9 +301,16 @@ h2 {
 }
 
 .application-content {
-  margin-left: -7rem;
   margin-right: 110px;
 }
+
+
+.application-customers > h5{
+  margin-bottom: 1.5rem;
+}
+
+
+.application-customers
 
 .application-container > .row > .application-content > img {
   margin-bottom: -9rem;

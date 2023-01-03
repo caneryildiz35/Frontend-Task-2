@@ -68,11 +68,11 @@
   </section>
 
   <section class="menu-background">
-    <div class="container feature-container">
-      <div class="row">
+    <div class="container features-container">
+      <div class="row" style="position: absolute; top: 890px">
         <div class="col">
           <div class="features-title">
-            <img src="images/green_rectangle.svg" />
+            <div class="green-rectangle"></div>
             <h2>Features & Benefits</h2>
           </div>
         </div>
@@ -82,7 +82,7 @@
           <div class="features-row">
             <img src="images/delivery.svg" />
             <h5>Get Same-Day Delivery</h5>
-            <img src="images/blueline.svg" />
+            <div class="blue-line"></div>
             <p>
               Same-Day Delivery: Order for delivery from local supermarkets.
             </p>
@@ -93,7 +93,7 @@
           <div class="features-row">
             <img src="images/savetime.svg" />
             <h5>Save Time & Effort</h5>
-            <img src="images/blueline.svg" />
+            <div class="blue-line"></div>
             <p>
               Make your purchase from the comfort of your own home and receive
               the delivery of the articles in only 2 hours.
@@ -104,7 +104,7 @@
           <div class="features-row">
             <img src="images/mobileapp.svg" />
             <h5>Mobile App and Website</h5>
-            <img src="images/blueline.svg" />
+            <div class="blue-line"></div>
             <p>
               Mobile App and Website: A secure mobile app and desktop app offers
               a safe and easy way to do your shopping.
@@ -120,7 +120,7 @@
           <div class="features-second-row">
             <img src="images/calendar.svg" />
             <h5>Choosing Delivery Date and Time</h5>
-            <img src="images/blueline.svg" />
+            <div class="blue-line"></div>
             <p>
               Receive your order on the day and within the time range of your
               choice.
@@ -131,7 +131,7 @@
           <div class="features-second-row">
             <img src="images/orderstatus.svg" />
             <h5 class="order-status-title">Order Status Tracking</h5>
-            <img src="images/blueline.svg" />
+            <div class="blue-line"></div>
             <p>
               Get the items you love delivered or ready for pickup in as little
               as 2 hours. Track your order status instantly.
@@ -142,7 +142,7 @@
           <div class="features-second-row">
             <img src="images/volunteer.svg" />
             <h5 style="margin-top: 36px">Everybody Can Become a Volunteer</h5>
-            <img src="images/blueline.svg" />
+            <div class="blue-line"></div>
             <p>
               Everyone can volunteer in their spare time to help the community.
             </p>
@@ -152,7 +152,7 @@
     </div>
 
     <div class="workflow-title">
-      <img src="images/green_rectangle.svg" />
+      <div class="workflow-green-rectangle"></div>
       <h2>Workflow</h2>
     </div>
 
@@ -160,7 +160,7 @@
       <img src="images/workflow_pic.png" />
     </div>
 
-    <div class="workflow-container" style="padding-top: 15px">
+    <div class="workflow-container">
       <div class="row">
         <div class="col-sm border-left-green">
           <h5>Registered Volunteers</h5>
@@ -170,7 +170,6 @@
           </p>
         </div>
         <div class="col-sm border-left-green">
-        
           <h5>Order Fast & Easy</h5>
           <p>
             Order all your requests fast and easy by monitoring all your orders
@@ -178,7 +177,6 @@
           </p>
         </div>
         <div class="col-sm border-left-green" style="margin-top: 7px">
-      
           <h5>User-friendly Design</h5>
           <p>The user-friendly design facilitates the ordering process.</p>
         </div>
@@ -187,7 +185,7 @@
   </section>
 
   <div class="application-title">
-    <img src="images/green_rectangle.svg" />
+    <div class="workflow-green-rectangle"></div>
     <h2>Application</h2>
   </div>
 
@@ -209,39 +207,57 @@
             </div>
           </div>
           <h4>Customers</h4>
-          //use border left instead of img , wrap them with one div
-          <img src="images/vertical_blue_line.svg" />
-          <h5>Order Status Tracking for Customers</h5>
-          <p>
-            Get the items you love delivered in as little as 2 hours. Get a
-            confirmation as soon as a volunteer has accepted your order.
-          </p>
-          <img src="images/vertical_blue_line.svg" />
-          <h5>Choosing Delivery Date and Time</h5>
-          <p>
-            Receive your order on the day and within the time range of your
-            choice.
-          </p>
-          <img src="images/vertical_blue_line.svg" />
-          <h5>Easy to Repeat Order</h5>
-          <p>
-            View all your orders in detail and quickly repeat your order from
-            the last order using the order area in your profile.
-          </p>
 
+          <div style="display: flex">
+            <div class="left-blue-border"></div>
+            <div class="application-customers">
+              <h5>Order Status Tracking for Customers</h5>
+              <p>
+                Get the items you love delivered in as little as 2 hours. Get a
+                confirmation as soon as a volunteer has accepted your order.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <div class="left-blue-border"></div>
+            <h5>Choosing Delivery Date and Time</h5>
+            <p>
+              Receive your order on the day and within the time range of your
+              choice.
+            </p>
+          </div>
+
+          <div>
+            <div class="left-blue-border"></div>
+            <h5>Easy to Repeat Order</h5>
+            <p>
+              View all your orders in detail and quickly repeat your order from
+              the last order using the order area in your profile.
+            </p>
+          </div>
           <h4 style="margin-top: 3rem">Volunteers</h4>
-          <img src="images/vertical_blue_line.svg" />
-          <h5>Easy Registration for Volunteers</h5>
-          <p>
-            You can easily become a volunteer on Quicki. Volunteers can register
-            on Quicki to carry deliveries as a registered volunteer.
-          </p>
-          <img src="images/vertical_blue_line.svg" />
-          <h5>Management Panel for Volunteers</h5>
-          <p>
-            Usability management panel for volunteers. Every volunteer can
-            easily manage the status of all their orders.
-          </p>
+          <div style="display: flex">
+            <div class="left-blue-border"></div>
+            <div class="application-customers">
+              
+              <h5>Easy Registration for Volunteers</h5>
+              <p>
+                You can easily become a volunteer on Quicki. Volunteers can
+                register on Quicki to carry deliveries as a registered
+                volunteer.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <div class="left-blue-border"></div>
+            <h5>Management Panel for Volunteers</h5>
+            <p>
+              Usability management panel for volunteers. Every volunteer can
+              easily manage the status of all their orders.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -267,7 +283,7 @@
 
   <h2>We're building Quicki <span class="green"> together!</span></h2>
 
-  <section class="container volunteer-card-container ">
+  <section class="container volunteer-card-container">
     <div class="row">
       <div class="col-sm">
         <img src="images/volunteer_card.svg" />
@@ -334,7 +350,7 @@
         </div>
       </div>
 
-      <div class="col-sm  contact-form">
+      <div class="col-sm contact-form">
         <form>
           <div class="form-group">
             <label for="name">Full Name *</label>
@@ -358,19 +374,13 @@
             <textarea class="form-control" id="message" rows="3"></textarea>
           </div>
 
-
-
           <div class="contact-button">
             <button>Contact Us <img src="images/path.svg" /></button>
           </div>
         </form>
       </div>
-    </div> 
+    </div>
   </section>
-
-
-
-
 
   <div class="footer-seperator">
     <img src="images/footer_seperator.svg" />
