@@ -51,7 +51,7 @@
   </nav>
 
   <section class="home-page-container">
-    <div class="container" style="margin-left: 60px">
+    <div class="container m-lr-40">
       <div class="row">
         <div class="col-12 mt-4 grid-item1">
           <p>GET SAME-DAY DELIVERY</p>
@@ -171,7 +171,7 @@
           <div class="col-sm">
             <div class="features-second-row">
               <img src="images/volunteer.svg" alt="volunteer-icon" />
-              <h5 style="margin-top: 36px">Everybody Can Become a Volunteer</h5>
+              <h5>Everybody Can Become a Volunteer</h5>
               <div class="blue-line"></div>
               <p>
                 Everyone can volunteer in their spare time to help the
@@ -275,7 +275,7 @@
               </div>
             </div>
 
-            <h4 style="margin-top: 3rem">Volunteers</h4>
+            <h4 class="margin-t1">Volunteers</h4>
             <div class="flex margin-t1">
               <div class="left-blue-border"></div>
               <div class="application-customers">
@@ -331,7 +331,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm" >
+      <div class="col-sm">
         <img src="images/volunteer_card.svg" />
       </div>
       <div class="col-sm">
@@ -354,9 +354,14 @@
           straight to your inbox.
         </p>
       </div>
+
       <div class="col-sm">
-        <form class="mailbox">
-          <input type="text" placeholder="Enter your email" />
+        <form class="mailbox">       
+          <input
+          type="email" 
+          id="email"
+          placeholder="Enter your email"
+          required />
           <button type="submit">
             <img src="images/send_email.svg" />
           </button>
@@ -438,31 +443,69 @@
       </div>
 
       <div class="col-sm-6 contact-form">
-        <form>
-          <div class="form-group">
-            <label for="name">Full Name *</label>
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              placeholder="Enter your full name"
-            />
+        <form class="needs-validation" novalidate>
+          <div class="form-row">
+            <div class="col-lg-12 mb-3">
+              <label for="fullname">Full Name*</label>
+              <input
+                type="text"
+                class="form-control"
+                id="fullname"
+                placeholder="Enter your full name"
+                required
+              />
+              <div class="invalid-feedback">Please enter valid name.</div>
+              <div class="valid-feedback">Looks good!</div>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="email">Email Address*</label>
-            <input type="email" class="form-control" id="email" />
+          <div class="form-row">
+            <div class="col-lg-12 mb-3">
+              <label for="email">Email Address*</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+              <div class="invalid-feedback">Please enter valid mail address.</div>
+              <div class="valid-feedback">Looks good!</div>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="phone">Phone Number*</label>
-            <input type="text" class="form-control" id="phone" />
-          </div>
-          <div class="form-group">
-            <label for="message">Your Message*</label>
-            <textarea class="form-control" id="message" rows="6"></textarea>
+          <div class="form-row">
+            <div class="col-lg-12 mb-3">
+              <label for="phone">Phone Number*</label>
+              <div class="input-group">
+                <input
+                  type="number" 
+                  class="form-control"
+                  id="phone"
+                  placeholder="Enter your phone"
+                  aria-describedby="inputGroupPrepend"
+                  required
+                />
+                <div class="invalid-feedback">Please enter valid phone number.</div>
+              </div>
+            </div>
           </div>
 
+          <div class="form-row">
+            <div class="col-lg-12 mb-3">
+              <label for="message">Your Message*</label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="6"
+                required
+              ></textarea>
+
+              <div class="invalid-feedback">
+                Please provide a valid message.
+              </div>
+            </div>
+          </div>
           <div class="contact-button">
-            <button>Contact Us <img src="images/path.svg" /></button>
+            <button class="btn submit-button" type="submit">Submit form</button>
           </div>
         </form>
       </div>
@@ -499,3 +542,32 @@
     </div>
   </footer>
 </body>
+
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function () {
+    "use strict";
+    window.addEventListener(
+      "load",
+      function () {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName("needs-validation");
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function (form) {
+          form.addEventListener(
+            "submit",
+            function (event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add("was-validated");
+            },
+            false
+          );
+        });
+      },
+      false
+    );
+  })();
+</script>

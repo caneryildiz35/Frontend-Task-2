@@ -29,8 +29,16 @@ h2 {
 .margin-t1{
   margin-top:1.2rem;
 }
+
+
+
 .green {
   color: var(--green);
+}
+
+.m-lr-40{
+  margin-left:40px;
+  margin-right: 40px;
 }
 
 
