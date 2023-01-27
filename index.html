@@ -50,21 +50,21 @@
     </div>
   </nav>
 
-  <section class="home-page-container">
+  <section class="main-pic-container">
     <div class="container m-lr-40">
       <div class="row">
-        <div class="col-12 mt-4 grid-item1">
-          <p>GET SAME-DAY DELIVERY</p>
+        <div class="col-12">
+          <p class="main-pic-sub-title">GET SAME-DAY DELIVERY</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-12 grid-item2">
-          <h1>EVERYBODY CAN BE A VOLUNTEER HERO</h1>
+        <div class="col-12">
+          <h1 class="main-pic-title">EVERYBODY CAN BE A VOLUNTEER HERO</h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-6 mb-2 mt-3 grid-item3">
-          <p class="info">
+        <div class="col-6 mb-2 mt-3">
+          <p class="main-pic-paragraph">
             Receive your delivery the same day, whenever you need it. Put
             together your shopping cart and receive your packages quickly and
             easily. With a quick registration on Quicki anyone can be a
@@ -73,24 +73,21 @@
         </div>
       </div>
       <div class="row">
-        <div class="col mt-5 grid-item4">
-          <button>Get Started</button>
+        <div class="col mt-5">
+          <button class="main-pic-start-button">Get Started</button>
         </div>
       </div>
       <div class="row" id="features">
-        <div class="col mt-5 grid-item5">
-          <a href="http://www.google.com" target="_blank"
-            ><button class="apple-store">
-              <img src="images/apple_store.svg" /></button
-          ></a>
-          <a href="http://www.google.com" target="_blank"
-            ><button class="play-store">
-              <img src="images/play_store.svg" /></button
-          ></a>
-          <a href="http://www.google.com" target="_blank"
-            ><button class="app-gallery">
-              <img src="images/app_gallery.svg" /></button
-          ></a>
+        <div class="col mt-5">
+          <a href="http://www.google.com" target="_blank">
+            <img src="images/apple_store.svg" />
+          </a>
+          <a href="http://www.google.com" target="_blank">
+            <img src="images/play_store.svg" />
+          </a>
+          <a href="http://www.google.com" target="_blank">
+            <img src="images/app_gallery.svg" />
+          </a>
         </div>
       </div>
     </div>
@@ -184,14 +181,19 @@
     </section>
 
     <section id="workflow">
-      <div class="workflow-title">
-        <div class="workflow-green-rectangle"></div>
-        <h2>Workflow</h2>
-      </div>
-      <div class="workflow-image">
-        <img src="images/workflow_pic.png" />
-      </div>
       <div class="container">
+        <div class="row">
+          <div class="col-sm flex mb-5">
+            <div class="workflow-green-rectangle"></div>
+            <h2>Workflow</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm mb-5">
+            <img class="full-width" src="images/workflow_pic.png" />
+          </div>
+        </div>
+
         <div class="row">
           <div class="col-sm mb-5 border-left-green">
             <h5 class="workflow-sub-title">Registered Volunteers</h5>
@@ -218,85 +220,98 @@
     </section>
   </section>
 
-  <section id="application">
-    <div class="application-background">
-      <div class="application-title-container">
-        <div class="application-green-rectangle"></div>
-        <h2 class="application-title">Application</h2>
-      </div>
-      <div class="application-container">
-        <div class="row">
-          <div class="col-sm application-image">
-            <img src="images/application_pic.png" />
+  <section id="application" class="application-background">
+    <div class="application-title-container">
+      <div class="application-green-rectangle"></div>
+      <h2 class="application-title">Application</h2>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <img class="application-image" src="images/application_pic.png" />
+        </div>
+        <div class="col-sm-7 mt-5">
+          <div class="row">
+            <div
+              class="col-sm white-background flex application-small-image-container"
+            >
+              <img
+                class="application-small-image"
+                src="images/user_interface.svg"
+              />
+              <h4 class="application-small-image-title">Mobile</h4>
+            </div>
+            <div class="col-sm flex application-small-image-container">
+              <img
+                class="application-small-image"
+                src="images/user_interface2.svg"
+              />
+              <h4 class="application-small-image-title">Desktop</h4>
+            </div>
           </div>
-          <div class="col-sm application-content">
-            <div class="row">
-              <div class="col-sm application-mobile">
-                <img src="images/user_interface.svg" />
-                <h4>Mobile</h4>
-              </div>
-              <div class="col-sm application-desktop">
-                <img src="images/user_interface2.svg" />
-                <h4>Desktop</h4>
-              </div>
+          <div class="row">
+            <div class="col-sm mt-4">
+              <h4 class="application-small-title">Customers</h4>
             </div>
-            <h4>Customers</h4>
-
-            <div class="flex margin-t1">
+          </div>
+          <div class="row">
+            <div class="col-sm application-content mt-3">
               <div class="left-blue-border"></div>
-              <div class="application-customers">
-                <h5>Order Status Tracking for Customers</h5>
-                <p>
-                  Get the items you love delivered in as little as 2 hours. Get
-                  a confirmation as soon as a volunteer has accepted your order.
-                </p>
-              </div>
+              <h5 class="bold">Order Status Tracking for Customers</h5>
+              <p>
+                Get the items you love delivered in as little as 2 hours. Get a
+                confirmation as soon as a volunteer has accepted your order.
+              </p>
             </div>
-
-            <div class="flex margin-t1">
+          </div>
+          <div class="row">
+            <div class="col-sm application-content mt-3">
               <div class="left-blue-border"></div>
-              <div class="application-customers">
-                <h5>Choosing Delivery Date and Time</h5>
-                <p>
-                  Receive your order on the day and within the time range of
-                  your choice.
-                </p>
-              </div>
+              <h5 class="bold">Choosing Delivery Date and Times</h5>
+              <p>
+                Receive your order on the day and within the time range of your
+                choice.
+              </p>
             </div>
-
-            <div class="flex margin-t1">
+          </div>
+          <div class="row">
+            <div class="col-sm application-content mt-4">
               <div class="left-blue-border"></div>
-              <div class="application-customers">
-                <h5>Easy to Repeat Order</h5>
-                <p>
-                  View all your orders in detail and quickly repeat your order
-                  from the last order using the order area in your profile.
-                </p>
-              </div>
+              <h5 class="bold">Easy to Repeat Orders</h5>
+              <p>
+                View all your orders in detail and quickly repeat your order
+                from the last order using the order area in your profile.
+              </p>
             </div>
+          </div>
 
-            <h4 class="margin-t1">Volunteers</h4>
-            <div class="flex margin-t1">
-              <div class="left-blue-border"></div>
-              <div class="application-customers">
-                <h5>Easy Registration for Volunteers</h5>
-                <p>
-                  You can easily become a volunteer on Quicki. Volunteers can
-                  register on Quicki to carry deliveries as a registered
-                  volunteer.
-                </p>
-              </div>
+          <div class="row">
+            <div class="col-sm mt-4">
+              <h4 class="application-small-title">Volunteers</h4>
             </div>
+          </div>
 
-            <div class="flex margin-t1">
+          <div class="row">
+            <div class="col-sm application-content mt-4">
               <div class="left-blue-border"></div>
-              <div class="application-customers">
-                <h5>Management Panel for Volunteers</h5>
-                <p>
-                  Usability management panel for volunteers. Every volunteer can
-                  easily manage the status of all their orders.
-                </p>
-              </div>
+              <h5 class="bold">Easy Registration for Volunteers</h5>
+              <p>
+                You can easily become a volunteer on Quicki. Volunteers can
+                register on Quicki to carry deliveries as a registered
+                volunteer.
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm application-content mt-4">
+              <div class="left-blue-border"></div>
+              <h5 class="bold">Management Panel for Volunteers</h5>
+              <p>
+                Usability management panel for volunteers. Every volunteer can
+                easily manage the status of all their orders.
+              </p>
             </div>
           </div>
         </div>
@@ -356,12 +371,13 @@
       </div>
 
       <div class="col-sm">
-        <form class="mailbox">       
+        <form class="mailbox">
           <input
-          type="email" 
-          id="email"
-          placeholder="Enter your email"
-          required />
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
           <button type="submit">
             <img src="images/send_email.svg" />
           </button>
@@ -373,72 +389,66 @@
   <section class="container" id="contact">
     <div class="row">
       <div class="col-sm-6">
-        <div class="row">
-          <div class="col-sm">
-            <div class="contact-header">
-              <img src="images/green_rectangle.svg" />
-              <h2>Contact Us</h2>
-            </div>
-          </div>
+        <div class="contact-header">
+          <img src="images/green_rectangle.svg" />
+          <h2>Contact Us</h2>
         </div>
-        <div class="row">
-          <div class="col-sm mb-5">
-            <p>
-              Got a question? We are here to help! Fill up the form to get in
-              touch with us on your enquiries.
-            </p>
-          </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm mb-5">
+          <p>
+            Got a question? We are here to help! Fill up the form to get in
+            touch with us on your enquiries.
+          </p>
         </div>
+      </div>
 
-        <div class="row">
-          <div class="col-sm-2 mb-3">
-            <a
-              href="https://maps.google.com/?q=BrüsselerStr.89-93,%2050672%20Cologne/Germany"
-              target="_blank"
-            >
-              <img
-                src="images/map_placeholder.svg"
-                class="contact-detail-img"
-              />
-            </a>
-          </div>
-          <div class="col-sm contact-detail">
-            <a
-              href="https://maps.google.com/?q=BrüsselerStr.89-93,%2050672%20Cologne/Germany"
-              target="_blank"
-            >
-              <p>Brüsseler Str. 89-93, 50672 Cologne/Germany</p>
-            </a>
-          </div>
+      <div class="row">
+        <div class="col-sm-2 mb-3">
+          <a
+            href="https://maps.google.com/?q=BrüsselerStr.89-93,%2050672%20Cologne/Germany"
+            target="_blank"
+          >
+            <img src="images/map_placeholder.svg" class="contact-detail-img" />
+          </a>
         </div>
-
-        <div class="row">
-          <div class="col-sm-2 mb-3">
-            <a href="tel:+4922157967940">
-              <img src="images/phone_placeholder.svg" height="50" width="40" />
-            </a>
-          </div>
-          <div class="col-sm contact-detail">
-            <a href="tel:+4922157967940">
-              <p>+49 2 21 5796 7940</p>
-            </a>
-          </div>
+        <div class="col-sm contact-detail">
+          <a
+            href="https://maps.google.com/?q=BrüsselerStr.89-93,%2050672%20Cologne/Germany"
+            target="_blank"
+          >
+            <p>Brüsseler Str. 89-93, 50672 Cologne/Germany</p>
+          </a>
         </div>
+      </div>
 
-        <div class="row">
-          <div class="col-sm-2 mb-3">
-            <a href="mailto:contact@quicki.io">
-              <img
-                src="images/message_placeholder.svg"
-                class="contact-detail-img"
-              />
-            </a>
-          </div>
-          <div class="col-sm contact-detail">
-            <a href="mailto:contact@quicki.io">
-              <p>contact@quicki.io</p>
-            </a>
-          </div>
+      <div class="row">
+        <div class="col-sm-2 mb-3">
+          <a href="tel:+4922157967940">
+            <img src="images/phone_placeholder.svg" height="50" width="40" />
+          </a>
+        </div>
+        <div class="col-sm contact-detail">
+          <a href="tel:+4922157967940">
+            <p>+49 2 21 5796 7940</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-2 mb-3">
+          <a href="mailto:contact@quicki.io">
+            <img
+              src="images/message_placeholder.svg"
+              class="contact-detail-img"
+            />
+          </a>
+        </div>
+        <div class="col-sm contact-detail">
+          <a href="mailto:contact@quicki.io">
+            <p>contact@quicki.io</p>
+          </a>
         </div>
       </div>
 
@@ -468,7 +478,9 @@
                 placeholder="Enter your email"
                 required
               />
-              <div class="invalid-feedback">Please enter valid mail address.</div>
+              <div class="invalid-feedback">
+                Please enter valid mail address.
+              </div>
               <div class="valid-feedback">Looks good!</div>
             </div>
           </div>
@@ -477,14 +489,16 @@
               <label for="phone">Phone Number*</label>
               <div class="input-group">
                 <input
-                  type="number" 
+                  type="number"
                   class="form-control"
                   id="phone"
                   placeholder="Enter your phone"
                   aria-describedby="inputGroupPrepend"
                   required
                 />
-                <div class="invalid-feedback">Please enter valid phone number.</div>
+                <div class="invalid-feedback">
+                  Please enter valid phone number.
+                </div>
               </div>
             </div>
           </div>
@@ -544,15 +558,12 @@
 </body>
 
 <script>
-  // Example starter JavaScript for disabling form submissions if there are invalid fields
   (function () {
     "use strict";
     window.addEventListener(
       "load",
       function () {
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
         var forms = document.getElementsByClassName("needs-validation");
-        // Loop over them and prevent submission
         var validation = Array.prototype.filter.call(forms, function (form) {
           form.addEventListener(
             "submit",

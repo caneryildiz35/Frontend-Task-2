@@ -30,16 +30,26 @@ h2 {
   margin-top:1.2rem;
 }
 
-
+.full-width{
+  width: 100%;
+}
 
 .green {
   color: var(--green);
+}
+.white-background{
+  background-color:var(--white);
 }
 
 .m-lr-40{
   margin-left:40px;
   margin-right: 40px;
 }
+
+.bold{
+  font-weight: 800;
+}
+
 
 
 
@@ -66,40 +76,34 @@ h2 {
 
 
 
-/* MAIN PIC  START  */  /*BURAYI SOR  NEDEN RESIM OTURMUYOR DUZGUN SEKILDE */  
-.home-page-container{
-  background-image: url("images/main-image.svg");
-  background-size: contain;
-  width: 100%;
-  height: 703px;
-  margin-bottom:23rem;
-  margin-left:0;
-  margin-right:0;
-  border-radius: 16px;
+/* MAIN PIC  START  */  
+.main-pic-container{
+  background-image: url(images/main-image.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 4rem 0;
+  margin-bottom: 23rem;
 }
 
-.grid-item1 {
+.main-pic-sub-title {
   font-weight: 800;
   font-size: 1.5rem; 
 }
 
-.grid-item2{
+.main-pic-title{
   color: var(--white);
   line-height: 5rem;
-}
-
-.grid-item2 > h1{
   font-weight: 900;
   font-size: 4rem;
 }
 
-.grid-item3 {
+.main-pic-paragraph{
   font-weight: 600;
   font-size: 1.25rem;
   line-height: 35px;
 }
 
-.grid-item4 > button{
+.main-pic-start-button{
   background-color: var(--blue);
   color: var(--white);
   border-radius: 0.4rem;
@@ -109,7 +113,7 @@ h2 {
   width: 8.75rem;
 }
 
-.grid-item5 > a > button {
+.main-pic-button{
   border:none;
   background-color: transparent;
 }
@@ -224,32 +228,9 @@ h2 {
 
 /* ---- WORKFLOW START ----*/
 
-.workflow-title {
-  display:flex;
-  margin-left:9rem;
-  margin-bottom: 4rem;
-} 
-.workflow-title > img {
-  height: 3rem;
-  margin-bottom: -12.8rem;
-  margin-left: 11.5rem;
-
-}
-
-
 .workflow-sub-title{
   font-weight: 800;
 }
-
-.workflow-image {
-  margin-bottom: 2rem;
-}
-
-.workflow-image > img {
-  width: 80%;
-  padding-left: 6rem;
-}
-
 
 .workflow-green-rectangle{
   border-radius:4px;
@@ -258,20 +239,24 @@ h2 {
   height: 48px;
   margin-top: 1rem;
 }
+
+
 /* ---- APPLICATION START ----*/
 
 .application-title-container{
   display:flex;
- 
   margin-left:8rem;
 }
+
 .application-customers{
   margin-left: 24px;
 }
+
 .application-customers > h5{
   margin-bottom: 1rem;
   font-weight: 800;
 }
+
 
 .application-green-rectangle{
   border-radius:4px;
@@ -280,6 +265,76 @@ h2 {
   height: 48px;
   margin-top: -5rem;
 }
+
+/* application_start/
+
+
+*/
+
+.application-image{
+  width: 100%;
+  margin-left: -100px;
+  margin-top:12px;
+}
+
+
+.application-small-image{
+  max-height: 4rem;
+  margin: 0.5rem;
+}
+
+.application-small-image-container{
+  height: 80px;
+  border-radius: 12px;
+}
+
+.application-small-image-title{
+  font-weight: 900;
+  margin: 1.5rem;
+}
+
+
+
+.application-small-title{
+  color: var(--orange);
+  font-weight: 800;
+}
+
+
+
+
+.application-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.application-content > h5{
+  margin-left:1rem;
+}
+.application-content > p {
+  margin-top:-2.65rem;
+  margin-left:1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .application-title > img {
   height: 3rem;
@@ -308,9 +363,6 @@ h2 {
   padding-left: 2rem;
 }
 
-.application-content {
-  margin-right: 110px;
-}
 
 .application-container > .row > .application-content > img {
   margin-bottom: -9rem;
@@ -319,8 +371,7 @@ h2 {
 }
 
 .application-container > .row > .col-sm > h4 {
-  color: var(--orange);
-  font-weight: 800;
+ 
   margin-top: 1rem;
 }
 .application-container > .row > .col-sm > h5 {
