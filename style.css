@@ -272,7 +272,7 @@ h2 {
 */
 
 .application-image{
-  width: 100%;
+  width: 120%;
   margin-left: -100px;
   margin-top:12px;
 }
@@ -301,8 +301,6 @@ h2 {
 }
 
 
-
-
 .application-content{
     display: flex;
     flex-direction: row;
@@ -319,23 +317,6 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .application-title > img {
   height: 3rem;
   margin-bottom: -14rem;
@@ -343,40 +324,15 @@ h2 {
 }
 
 .application-background {
-  width: 100%;
-  height: 57rem;
+  width: 72%;
+  height: 55rem;
   background-color: var(--light-grey);
-  margin-top:10rem;
-}
-
-.application-container {
-  padding-top: 2rem;
+  position: absolute;
+  right:0;
+  border-radius:8px;
 
 }
 
-.application-container > .row > .application-content > p {
-  margin-top: 1rem;
-  padding-left: 2rem;
-}
-.application-container > .row > .application-content > h5 {
-  margin-top: 1rem;
-  padding-left: 2rem;
-}
-
-
-.application-container > .row > .application-content > img {
-  margin-bottom: -9rem;
-  height: 5rem;
-  margin-right: 15px;
-}
-
-.application-container > .row > .col-sm > h4 {
- 
-  margin-top: 1rem;
-}
-.application-container > .row > .col-sm > h5 {
-  font-weight: 800;
-}
 
 .application-desktop {
   display: flex;
@@ -409,9 +365,7 @@ h2 {
   font-weight: 800;
 }
 
-.application-image > img {
-  height: 75%;
-}
+
 
 /* ---- ORDER CARD START ----*/
 
@@ -467,16 +421,25 @@ h2 {
 }
 
 
-
-
 .building-quicki-title{
   margin-bottom:2rem;
   font-size: 72px;
 }
 
 
+.middle-grey-bg{
+  background-color: var(--light-grey);
+  border-radius: 8px;
+  height: 25rem;
+}
+
 /* ---- VOLUNTEER CARD  START ----*/
 
+.volunteer-card-container{
+  background-color: white;
+  margin-bottom: -145px;
+  position:relative;
+}
 .volunteer-card-container > .row > .col-sm > img {
   width: 100%;
 }
@@ -500,7 +463,7 @@ h2 {
 /* ---- SUBSCRIBE CARD  START ----*/
 
 .subscribe-container {
-  margin-top: 9rem;
+  margin-top: -100px;
   background-color: var(--blue);
   border-radius: 0.4rem;
 }
@@ -547,8 +510,6 @@ h2 {
 .contact-form{
   padding-top:5rem;
 }
-
-
 
 
 .contact-detail > a> p {
