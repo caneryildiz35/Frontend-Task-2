@@ -54,13 +54,9 @@ h2 {
 
 
 /* ---- NAVBAR START ----*/ 
-.navbar {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 34px;
-  padding-bottom:2rem;
-}
-.navbar-logo {
+
+ 
+.navbar-logo-1 {
   width: 12rem;
   margin-top: -0.7rem;
 }
@@ -586,9 +582,7 @@ h2 {
 /* ---- SEPERATORS START ----*/
 .small-seperator {
   color: var(--grey);
-  margin-top: 0.3rem;
-  font-size: xx-large;
-  font-weight: 300;
+  font-size: x-large;
 }
 
 .medium-seperator {
