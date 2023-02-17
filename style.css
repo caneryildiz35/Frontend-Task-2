@@ -56,18 +56,14 @@ h2 {
 /* ---- NAVBAR START ----*/ 
 
  
-.navbar-logo-1 {
+.navbar-logo {
   width: 12rem;
   margin-top: -0.7rem;
 }
 
-.navbar-collapse > ul > li > a {
-  color: black;
-  margin-left: 2.5rem;
-}
 
 .nav-link:hover{
-  color:blue;
+  color:blue !important;
 }
 
 
